@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo1{
+    position: absolute;
+    top: 95px;
+    left: 75px;
+}
+
+.logo2{
+    position: absolute;
+    top: 95px;
+    left: 100px;
+}
+
+.logo4{
+    position: absolute;
+    top: 90px;
+    left: 135px;
+}
+
+
+.center{
+    left: 50%;
+    transform: translate(-50%);
+}
+
+html body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header_wrapper{
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+#header1 ul, #header1{
+    display: inline-block;
+}
+
+#header1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo3{
+    display: inline-block;
+    position: relative;
+    left: 55%;
+}
+
+
+form{
+    padding-left: 10px;
+    top: 15px;
+    display: inline-block;
+    clear: both;
+    padding-right: 20px;
+}
+
+form img{
+    width: 15px;
+}
+
+
+#header h1{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav{
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    border-bottom: 1px solid black;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 70px;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav #right{
+    padding-right: 0px;
+}
+
+nav ul{
+    padding-inline-start: 260px;
+}
+
+#main h1{
+    font-size: 50px;
+}
+
+#img_text{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-family: helvetica;
+    
+}
+
+.billedekategori{
+    display: flex;
+    margin-bottom: 150px;
+    flex-direction: row;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tekst{
+    font-size: 16;
+    font-family: helvetica;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#overskrift{
+    text-align: center;
+    font-size: 30px;
+}
+
+.collage{
+    display: flex;
+    margin-bottom: 150px;
+    flex-direction: row;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+aside{
+    text-align: center;
+    height: 500px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 400px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+content{
+    width: 900px;
+    float: right;
+}
+
+#forny{
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+
+aside h1{
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+aside p{
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 30px;
+}
+
+#nyesteindleag{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 70px;
+    font-family: helvetica;
+}
+
+.main{
+    position: relative;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+p{
+font-family: Tahoma, Geneva, sans-serif;  
+}
+
